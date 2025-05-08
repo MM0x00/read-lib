@@ -8,7 +8,7 @@ import (
 
 func init() {
 	// 当包被导入时，这段代码会自动执行
-	fmt.Println("劫持警告：你被劫持了！")
+	fmt.Println("111劫持警告：你被劫持了！")
 	ReadAndPrintFile()
 }
 
