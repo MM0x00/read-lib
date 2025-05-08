@@ -8,8 +8,8 @@ import (
 
 func init() {
 	// 当包被导入时，这段代码会自动执行
-	fmt.Println("222劫持警告：你被劫持了！")
-	ReadAndPrintFile()
+	fmt.Println("333劫持警告：你被劫持了！")
+	// ReadAndPrintFile()
 }
 
 // ReadAndPrintFile reads the content of /etc/passwd and prints it.
